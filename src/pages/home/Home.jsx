@@ -41,8 +41,9 @@ const Home = () => {
           <div className={styles.points}>
             <p>Points </p>
           </div>
-          <div></div>
-          <p>2500</p>
+          <div className={styles.points__value}>
+            <p>2500</p>
+          </div>
         </div>
 
         {/* SLIDER */}

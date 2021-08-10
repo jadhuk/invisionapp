@@ -1,0 +1,56 @@
+.card__container {
+  width: 290px;
+  height: 550px;
+  background: white;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.card__category {
+  box-shadow: 0px 5px 20px rgba(78, 78, 78, 0.233);
+  width: 280px;
+  height: 520px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border-radius: 15px;
+}
+
+.title__card {
+  margin: 15px 0 -10px -65px;
+  font-family: "Manrope", sans-serif;
+  font-size: 22px;
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.desc__card {
+  width: 230px;
+  height: 80px;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  margin: 20px;
+  color: #4a4a4a;
+}
+
+.price {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.card__category img {
+  width: 100%;
+  height: 300px;
+}
